@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cuatro meses floreciendo contigo 🌻💜</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- =========================
+     MÚSICA
+========================= -->
+
+<audio id="music" preload="auto">
+    <source src="music/para-siempre.mp3" type="audio/mpeg">
+</audio>
+
+<!-- =========================
+     FONDO
+========================= -->
+
+<div id="background"></div>
+<div id="stars"></div>
+<div id="petals"></div>
+
+<!-- =========================
+     BIENVENIDA
+========================= -->
+
+<section id="welcome">
+
+    <div class="welcome-card">
+
+        <h1>
+            🌻 Cuatro meses floreciendo contigo 💜
+        </h1>
+
+        <p>
+            Han pasado cuatro meses desde que comenzó la historia
+            más bonita de mi vida.
+            Preparé este pequeño detalle para recordarte cuánto te amo
+            y cuánto significas para mí.
+        </p>
+
+        <button id="startButton">
+            Comenzar ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     EXPERIENCIA
+========================= -->
+
+<main id="experience" class="hidden">
+
+<!-- =========================
+     CARTA
+========================= -->
+
+<section id="letterSection">
+
+    <div class="letter-card">
+
+        <div class="flower-top">🌻</div>
+
+        <h2>
+            Para el amor de mi vida 💜
+        </h2>
+
+        <p id="letterText"></p>
+
+        <button
+            id="continueButton"
+            class="hidden">
+
+            Continuar ❤️
+
+        </button>
+
+    </div>
+
+</section>
+<!-- =====================================
+     CONTADOR
+===================================== -->
+
+<section id="counterSection">
+
+    <div class="container">
+
+        <h2>⏳ Nuestro tiempo juntos</h2>
+
+        <p class="subtitle">
+            Desde el 1 de mayo de 2026
+        </p>
+
+        <div class="counter-grid">
+
+            <div class="counter-card">
+                <span id="months">0</span>
+                <small>Meses</small>
+            </div>
+
+            <div class="counter-card">
+                <span id="days">0</span>
+                <small>Días</small>
+            </div>
+
+            <div class="counter-card">
+                <span id="hours">0</span>
+                <small>Horas</small>
+            </div>
+
+            <div class="counter-card">
+                <span id="minutes">0</span>
+                <small>Minutos</small>
+            </div>
+
+            <div class="counter-card">
+                <span id="seconds">0</span>
+                <small>Segundos</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     GALERÍA
+===================================== -->
+
+<section id="gallerySection">
+
+    <div class="container">
+
+        <h2>📸 Nuestros recuerdos</h2>
+
+        <p class="subtitle">
+            Cada fotografía representa un pedacito de nuestra historia.
+        </p>
+
+        <div class="gallery">
+
+            <button id="prevPhoto" class="gallery-btn">
+                ❮
+            </button>
+
+            <div class="photo-container">
+
+                <img
+                    id="galleryImage"
+                    src="img/foto1.jpg"
+                    alt="Nuestro recuerdo">
+
+            </div>
+
+            <button id="nextPhoto" class="gallery-btn">
+                ❯
+            </button>
+
+        </div>
+
+        <p id="photoCounter">
+
+            1 / 9
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     MENSAJE FINAL
+===================================== -->
+
+<section id="finalSection">
+
+    <div class="final-card">
+
+        <div class="final-flower">
+
+            🌻
+
+        </div>
+
+        <h2>
+
+            Felices 4 meses,
+            mi amor 💜
+
+        </h2>
+
+        <p>
+
+            Gracias por estos cuatro meses
+            llenos de amor, risas y momentos inolvidables.
+
+            Espero que esta pequeña sorpresa
+            te recuerde lo mucho que significas para mí.
+
+            Eres mi lugar favorito.
+
+            ❤️
+
+        </p>
+
+        <button id="restartButton">
+
+            Volver a empezar 🌻
+
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
